@@ -1,0 +1,51 @@
+/*
+  selector {property:value;}    */
+
+    header {
+    width: 75vw;
+    margin: 25px auto;
+    /* background-color: blue; */
+  }
+  main {
+    width: 75vw;
+    margin: 25px auto;
+    /* background-color: yellow; */
+      display: flow-root;
+  }
+  .col {
+    width: 50%;
+    /* background-color: red; */
+    /*border: solid 5px navy;*/
+    float: left;
+
+  }
+  body {
+    background-color: palegreen;
+    text-align: left;
+    }
+  h1 {
+    text-align: left;
+    color: darkgreen;
+    font-size: 60px;
+    }
+  h2 {
+    text-align: left;
+    color: darkgreen;
+    font-size: 40px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  li {
+    color: darkslateblue;
+    font-size: 25px;
+    }
+
+  /* For responsiveness */
+  @media screen and (max-width: 900px) {
+    .col {
+      width: 100%;
+      margin-bottom: 50px;
+  }
