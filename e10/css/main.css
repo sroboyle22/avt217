@@ -1,0 +1,149 @@
+/*
+  selector {property:value;}    */
+
+  /* e10 patterns*/
+
+/*  body {
+    margin: 0;
+  } */
+
+.blacksquare {
+  width: 5vw;
+  height: 5vw;
+  background-color: gray;
+  float:  left;
+}
+.redsquare {
+  width: 5vw;
+  height: 5vw;
+  background-color: crimson;
+  float:  left;
+}
+.board {
+  width: 40vw;
+  display: flow-root;
+  margin: 50px auto;
+}
+.three_col {
+  width: 620px;
+  display: flow-root;
+  margin: 50px auto;
+}
+.head_row {
+  width: 620px;
+  height: 80px;
+  background-color: red;
+  float:  left;
+}
+.subhead_row {
+  width: 620px;
+  height: 20px;
+  background-color: red;
+  border-top: solid 10px white;
+  float:  left;
+}
+.col_1_2 {
+  width: 200px;
+  height: 500px;
+  background-color: red;
+  border-top: solid 10px white;
+  border-right: solid 10px white;
+  float:  left;
+}
+.col_3 {
+  width: 200px;
+  height: 500px;
+  background-color: red;
+  border-top: solid 10px white;
+  float:  left;
+}
+.foot_row {
+  width: 620px;
+  height: 80px;
+  background-color: red;
+  border-top: solid 10px white;
+  float:  left;
+}
+.blog {
+  width: 620px;
+  display: flow-root;
+  margin: 20px;
+}
+.blog_head {
+  width: 620px;
+  height: 100px;
+  background-color: red;
+  float:  left;
+}
+.blog_content {
+  width: 500px;
+  height: 400px;
+  background-color: red;
+  border-top: solid 60px white;
+  float:  left;
+}
+.blog_content {
+  width: 500px;
+  height: 400px;
+  background-color: red;
+  border-top: solid 60px white;
+  border-right: solid 5px white;
+  float:  left;
+}
+.blog_right {
+  width: 115px;
+  height: 200px;
+  background-color: red;
+  border-top: solid 60px white;
+  float:  left;
+}
+.blog_foot {
+  width: 500px;
+  height: 30px;
+  background-color: red;
+  border-top: solid 5px white;
+  float:  left;
+}
+.court {
+  width: 700px;
+  display: flow-root;
+  margin: 20px;
+}
+.court_square {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  float:  left;
+}
+.court_top {
+  width: 402px;
+  height: 100px;
+  background-color: green;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  float:  left;
+}
+.court_bot {
+  width: 402px;
+  height: 100px;
+  background-color: green;
+  border-right: solid 2px white;
+  float:  left;
+}
+.court_left {
+  width: 100px;
+  height: 302px;
+  background-color: green;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  float:  left;
+}
+.court_right {
+  width: 100px;
+  height: 302px;
+  background-color: green;
+  border-bottom: solid 2px white;
+  float:  left;
+}
