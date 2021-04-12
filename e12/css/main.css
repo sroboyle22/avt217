@@ -1,0 +1,63 @@
+/*
+  selector {property:value;}    */
+/* e12 Type on Screen II */
+header {
+  width: 100vw;
+  margin: 25px auto;
+  }
+main {
+  width: 100vw;
+  margin: 25px auto;
+  display: flow-root;
+  }
+.col {
+  width: 50%;
+  float: left;
+  }
+body {
+  background-color: #F5B658;
+  text-align: center;
+  font-family: 'Tinos', serif;
+  }
+h2 {
+  text-align: center;
+  color: #441A07;
+  font-size: 50px;
+  }
+h3 {
+  text-align: center;
+  color: #441A07;
+  font-size: 40px;
+  }
+h4 {
+  text-align: center;
+  color: #441A07;
+  font-size: 30px;
+  font-style: italic;
+  }
+p {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+.textbox {
+  border-radius: 1em;
+  border-color: darkbrown;
+  border-style: double;
+  border-width: thick;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+img {
+  text-align: center;
+  margin:25px;
+  max-width: 80%;
+  }
+  /* For responsiveness */
+@media screen and (max-width: 900px) {
+  .col {
+  width: 100%;
+  margin-bottom: 50px;
+  }
