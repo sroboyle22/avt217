@@ -1,0 +1,91 @@
+/*
+  selector {property:value;}    */
+
+  /* e13 CSS Animation*/
+
+.egg1 {
+  width: 126px;
+  height: 180px;
+  background-color: mediumpurple;
+  margin: 10px 0 10px 10px;
+  position: relative;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(-25deg);
+  animation: colorshift1 5s infinite;
+}
+.egg2 {
+  width: 126px;
+  height: 180px;
+  background-color: yellow;
+  /*margin: 10px 0 10px 10px; */
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: 30px;
+  left: 70px;
+  transform: rotate(25deg);
+  animation: rock 5s infinite;
+}
+.egg3 {
+  width: 126px;
+  height: 180px;
+  background-color:hotpink;
+  /*margin: 10px 0 10px 10px;*/
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: 80px;
+  left: 160px;
+  transform: rotate(50deg);
+  z-index: -5;
+  animation: colorshift3 5s infinite;
+}
+.absolute_dot1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: springgreen;
+  top: 25px;
+  left: 35px;
+  border-radius: 50%
+}
+.absolute_dot1b {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: springgreen;
+  top: 90px;
+  left: 25px;
+  border-radius: 50%
+}
+.absolute_dot2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: springgreen;
+  top: 70px;
+  left: 70px;
+  border-radius: 50%
+}
+.absolute_dot3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: springgreen;
+  top: 130px;
+  left: 50px;
+  border-radius: 50%
+}
+@keyframes rock {
+  0%{transform: rotate(-20deg);}
+  50%{transform: rotate(80deg);}
+  100%{transform: rotate(-20deg);}
+}
+@keyframes colorshift1 {
+  0%{background-color: black;}
+  50%{background-color: orange;}
+  100%{background-color: green;}
+}
+@keyframes colorshift3 {
+  0%{background-color: teal;}
+  50%{background-color: purple;}
+  100%{background-color: coral;}
+}
