@@ -1,0 +1,125 @@
+/*
+  selector {property:value;}    */
+
+  /* e14 jquery*/
+
+/*  body {
+    margin: 0;
+  } */
+h2 {
+  /*margin-top: 2vw;*/
+  padding-top: 2vw;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  margin: 0px;
+}
+h3 {
+  /*margin-top: 1vw;*/
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+.whitesquare1, .whitesquare2, .whitesquare3, .whitesquare4, .whitesquare5 {
+  width: 13vw;
+  height: 13vw;
+  background-color: white;
+  float:  left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  border:solid;
+  border-width: 1vw;
+  border-color: black;
+  line-height: 13vw;
+  white-space: nowrap;
+}
+.tealsquare {
+  width: 13vw;
+  height: 13vw;
+  background-color: teal;
+  float:  left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  border:solid;
+  border-width: 1vw;
+  border-color: black;
+  line-height: 13vw;
+  white-space: nowrap;
+}
+.coralsquare {
+  width: 13vw;
+  height: 13vw;
+  background-color: coral;
+  float:  left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  border:solid;
+  border-width: 1vw;
+  border-color: black;
+  line-height: 13vw;
+  white-space: nowrap;
+}
+.cyansquare {
+  width: 13vw;
+  height: 13vw;
+  background-color: cyan;
+  float:  left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  border:solid;
+  border-width: 1vw;
+  border-color: black;
+  line-height: 13vw;
+  white-space: nowrap;
+}
+.fuchsiasquare {
+  width: 13vw;
+  height: 13vw;
+  background-color: fuchsia;
+  float:  left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  border:solid;
+  border-width: 1vw;
+  border-color: black;
+  line-height: 13vw;
+  white-space: nowrap;
+}
+.chartreusesquare {
+  width: 13vw;
+  height: 13vw;
+  background-color: chartreuse;
+  float:  left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  border:solid;
+  border-width: 1vw;
+  border-color: black;
+  line-height: 13vw;
+  white-space: nowrap;
+}
+.backgroundcolor {
+  background-color: red;
+}
+.changeborder {
+  border: double;
+  border-width: 1vw;
+  border-color: dodgerblue;
+}
+.fivecolors {
+  width: 75vw;
+  display: flow-root;
+  margin: 5vw auto;
+  background-color: yellow;
+}
+.fullwindow {
+  background-color: peachpuff;
+  width: 100vw;
+  height: 100vw;
+}
